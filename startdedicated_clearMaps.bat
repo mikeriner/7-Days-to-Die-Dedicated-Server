@@ -1,10 +1,10 @@
 @echo off
 taskkill /im 7DaysToDieServer.exe /f
 timeout 2
-del /f /q C:\Users\Mike2\AppData\Roaming\7DaysToDie\*.* /s
-rmdir /s /q C:\Users\Mike2\AppData\Roaming\7DaysToDie\Saves
-mkdir C:\Users\Mike2\AppData\Roaming\7DaysToDie\Saves
-copy C:\Users\Mike2\Desktop\serveradmin.xml C:\Users\Mike2\AppData\Roaming\7DaysToDie\Saves
+del /f /q %appdata%\7DaysToDie\*.* /s
+rmdir /s /q %appdata%\7DaysToDie\Saves
+mkdir %appdata%\7DaysToDie\Saves
+copy serveradmin.xml %appdata%\7DaysToDie\Saves
 timeout 2
 rem Starts a dedicated server
 rem
