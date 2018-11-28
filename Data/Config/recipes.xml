@@ -3814,7 +3814,139 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 </recipe>
 
 
+<recipe name="ammoCrossbowBoltExploding" count="250">
+	<ingredient name="resourceRockSmallSuper" count="1"/>
+</recipe>
+
 <recipe name="modMeleeClubMetalSpikesSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunBarrelExtenderSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunMuzzleBrakeSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunSoundSuppressorSilencerSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunLaserSightSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunFlashlightSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunScopeSmallSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunScopeMediumSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunScopeLargeSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunReflexSightSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunTriggerGroupSemiSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunTriggerGroupBurstSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunTriggerGroupAutomaticSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunRodAndSpringSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunBipodSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunForegripSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunRetractingStockSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunDuckbillSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunChokeSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunMagazineExtenderSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modShotgunSawedOffBarrelSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunMeleeFeelTheHeatSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunCrippleEmSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunBowPolymerStringSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunMeleeTheHunterSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunMeleeRadRemoverSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunMeleeBlessedMetalSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modMeleeTemperedBladeSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modMeleeSerratedBladeSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modMeleeWeightedHeadSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modMeleeStructuralBraceSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modMeleeErgonomicGripSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modMeleeFortifyingGripSchematic" count="1">
 	<ingredient name="resourceRockSmallSuper2" count="1"/>
 </recipe>
 
@@ -3822,7 +3954,79 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceRockSmallSuper2" count="1"/>
 </recipe>
 
+<recipe name="modMeleeClubMetalSpikesSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modArmorInsulatedLinerSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modArmorCoolingMeshSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modArmorImprovedFittingsSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modArmorCustomizedFittingsSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modArmorReinforcedPaddingSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modArmorPlasticPlatingSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modArmorMilitaryPlatingSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modArmorScrapPlatingSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modArmorIronPlatingSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modArmorSteelPlatingSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modArmorStoragePocketSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modArmorDoubleStoragePocketSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modArmorTripleStoragePocketSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
 <recipe name="modArmorSpikedKnucklesSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modArmorMuffledConnectorsSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modArmorAdvancedMuffledConnectorsSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modArmorImpactBracingSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modArmorBandolierSchematic" count="1">
 	<ingredient name="resourceRockSmallSuper2" count="1"/>
 </recipe>
 
@@ -3830,87 +4034,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceRockSmallSuper2" count="1"/>
 </recipe>
 
-<recipe name="meleeToolSledgehammerSchematic" count="1">
-	<ingredient name="resourceRockSmallSuper2" count="1"/>
-</recipe>
-
-
 <recipe name="modArmorHelmetLightSchematic" count="1">
-	<ingredient name="resourceRockSmallSuper2" count="1"/>
-</recipe>
-
-
-<recipe name="meleeToolHuntingKnifeSchematic" count="1">
-	<ingredient name="resourceRockSmallSuper2" count="1"/>
-</recipe>
-
-
-<recipe name="gunCrossbowSchematic" count="1">
-	<ingredient name="resourceRockSmallSuper2" count="1"/>
-</recipe>
-
-
-<recipe name="gunCompoundBowSchematic" count="1">
-	<ingredient name="resourceRockSmallSuper2" count="1"/>
-</recipe>
-
-<recipe name="gunPistolSchematic" count="1">
-	<ingredient name="resourceRockSmallSuper2" count="1"/>
-</recipe>
-
-<recipe name="gunPumpShotgunSchematic" count="1">
-	<ingredient name="resourceRockSmallSuper2" count="1"/>
-</recipe>
-
-<recipe name="gunToolNailgunSchematic" count="1">
-	<ingredient name="resourceRockSmallSuper2" count="1"/>
-</recipe>
-
-<recipe name="drugHerbalAntibioticsRecipeSchematic" count="1">
-	<ingredient name="resourceRockSmallSuper2" count="1"/>
-</recipe>
-
-<recipe name="shamwaySecretRecipeSchematic" count="1">
-	<ingredient name="resourceRockSmallSuper2" count="1"/>
-</recipe>
-
-<recipe name="magazinePerkGunslinger" count="1">
-	<ingredient name="resourceRockSmallSuper2" count="1"/>
-</recipe>
-
-<recipe name="magazinePerkShotgunMessiah" count="1">
-	<ingredient name="resourceRockSmallSuper2" count="1"/>
-</recipe>
-
-<recipe name="magazinePerkDeadEye" count="1">
-	<ingredient name="resourceRockSmallSuper2" count="1"/>
-</recipe>
-
-<recipe name="magazinePerkArchery" count="1">
-	<ingredient name="resourceRockSmallSuper2" count="1"/>
-</recipe>
-
-<recipe name="magazinePerkExplosiveWeapons" count="1">
-	<ingredient name="resourceRockSmallSuper2" count="1"/>
-</recipe>
-
-<recipe name="magazinePerkHeadshot" count="1">
-	<ingredient name="resourceRockSmallSuper2" count="1"/>
-</recipe>
-
-<recipe name="magazinePerkWreckingCrew" count="1">
-	<ingredient name="resourceRockSmallSuper2" count="1"/>
-</recipe>
-
-<recipe name="magazinePerkLuckyLooter" count="1">
-	<ingredient name="resourceRockSmallSuper2" count="1"/>
-</recipe>
-
-<recipe name="magazinePerkLuckyLooter" count="1">
-	<ingredient name="resourceRockSmallSuper2" count="1"/>
-</recipe>
-
-<recipe name="modGunBarrelExtenderSchematic" count="1">
 	<ingredient name="resourceRockSmallSuper2" count="1"/>
 </recipe>
 

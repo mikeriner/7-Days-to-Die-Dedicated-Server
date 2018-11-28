@@ -12261,6 +12261,11 @@ So no clothing dyes until that can be resolved. -->
 	</effect_group>
 </item>
 
+<item name="gunCrossbowSchematicSuper">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="EconomicValue" value="500"/>
+</item>
+
 </items> <!-- Item limit: There can be 32k items in the game. IDs are generated internally on loading the game/items. -->
 
 <!--

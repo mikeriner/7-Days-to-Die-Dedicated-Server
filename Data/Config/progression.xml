@@ -8,7 +8,7 @@
 <!-- A16: 8300 XP for level 1, total cumulative of 11MXP -->
 </level>
 
-<attributes min_level="1" max_level="10" base_skill_point_cost="1" cost_multiplier_per_level="1"> <!--values here are simply base values for any attribute that doesn't override it. -->
+<attributes min_level="1" max_level="20" base_skill_point_cost="1" cost_multiplier_per_level="1"> <!--values here are simply base values for any attribute that doesn't override it. -->
 
 	<attribute name="attPerception" name_key="attPerceptionName" desc_key="attPerceptionDesc" icon="ui_game_symbol_stealth">
 		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericLevel01"/></level_requirements>
@@ -179,6 +179,7 @@
 		<level_requirements level="8"><requirement name="PlayerLevel" target="self" operation="GTE" value="25" desc_key="reqGenericLevel08"/></level_requirements>
 		<level_requirements level="9"><requirement name="PlayerLevel" target="self" operation="GTE" value="30" desc_key="reqGenericLevel09"/></level_requirements>
 		<level_requirements level="10"><requirement name="PlayerLevel" target="self" operation="GTE" value="40" desc_key="reqGenericLevel10"/></level_requirements>
+		<level_requirements level="11"><requirement name="PlayerLevel" target="self" operation="GTE" value="50" desc_key="reqGenericLevel10"/></level_requirements>
 		<effect_group>
 			<!-- <passive_effect name="PlayerExpGain" operation="perc_add" value="0.0,0.40" level="1,9"/>
 			<passive_effect name="PlayerExpGain" operation="perc_add" value="0.5" level="10"/>
