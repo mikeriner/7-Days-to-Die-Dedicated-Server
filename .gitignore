@@ -6,7 +6,6 @@
 7DaysToDieServer_Data/globalgamemanagers
 *.assets
 7DaysToDieServer_Data/level0
-*.xml
 *.txt
 *.resS
 *.resource
@@ -43,3 +42,17 @@ Mono/etc/mono/browscap.ini
 Mono/etc/mono/2.0/settings.map
 config/config.vdf
 7DaysToDieServer_Data/Resources/unity_builtin_extra
+7DaysToDieServer_Data/
+/appcache/
+/config/
+/Licenses/
+/logs/
+/Mono/
+/Steamapps/
+/Data/Bluffs
+/Data/Bundles
+/Data/Config_backup
+/Data/Prefabs
+/Data/UMATextures
+/Data/Worlds
+
