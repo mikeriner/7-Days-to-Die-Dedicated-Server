@@ -78,6 +78,7 @@
 		<objective type="BlockPlace" id="bedroll" value="1" phase="2" />
 
 		<reward type="Exp" value="125000" />
+		<reward type="SkillPoints" value="3" chainreward="true" />
 		<!--<reward type="Quest" id="quest_BasicSurvival2" />-->
 		<!--<reward type="Quest" id="quest_RareCandy" />-->
     </quest>

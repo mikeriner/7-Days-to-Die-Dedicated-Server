@@ -3774,6 +3774,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceRockSmallSuper" count="1"/>
 </recipe>
 
+<!--
 <recipe name="ShadesPerceptionSuper" count="1">
 	<ingredient name="resourceRockSmallSuper2" count="1"/>
 </recipe>
@@ -3793,15 +3794,15 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 <recipe name="ShadesFortitudeSuper" count="1">
 	<ingredient name="resourceRockSmallSuper2" count="1"/>
 </recipe>
-
+-->
 <recipe name="ShadeLootSuper" count="1">
-	<ingredient name="resourceRockSmallSuper2" count="1"/>
+	<ingredient name="resourceRockSmallSuper" count="1"/>
 </recipe>
-
+<!--
 <recipe name="ammoArrowFlaming" count="250">
 	<ingredient name="resourceRockSmallSuper" count="1"/>
 </recipe>
-
+-->
 
 <recipe name="bikeKitSuper" count="1">
 	<ingredient name="resourceRockSmallSuper" count="1"/>
@@ -3812,6 +3813,106 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceRockSmallSuper" count="1"/>
 </recipe>
 
+
+<recipe name="modMeleeClubMetalSpikesSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modMeleeClubBarbedWireSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modArmorSpikedKnucklesSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modArmorWaterPurifierSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="meleeToolSledgehammerSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+
+<recipe name="modArmorHelmetLightSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+
+<recipe name="meleeToolHuntingKnifeSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+
+<recipe name="gunCrossbowSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+
+<recipe name="gunCompoundBowSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="gunPistolSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="gunPumpShotgunSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="gunToolNailgunSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="drugHerbalAntibioticsRecipeSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="shamwaySecretRecipeSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="magazinePerkGunslinger" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="magazinePerkShotgunMessiah" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="magazinePerkDeadEye" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="magazinePerkArchery" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="magazinePerkExplosiveWeapons" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="magazinePerkHeadshot" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="magazinePerkWreckingCrew" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="magazinePerkLuckyLooter" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="magazinePerkLuckyLooter" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
+
+<recipe name="modGunBarrelExtenderSchematic" count="1">
+	<ingredient name="resourceRockSmallSuper2" count="1"/>
+</recipe>
 
 </recipes>
 <!-- To do (maybe / later)
