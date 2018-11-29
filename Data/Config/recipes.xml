@@ -4056,8 +4056,44 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceYuccaFibers" count="5"/>
 </recipe>
 <!-- End Scrap Iron Tools -->
+<!-- Extra recipe for normal items -->
 		
     
+<recipe name="toolBeaker" count="1" craft_area="workbench">
+	<ingredient name="drinkJarEmpty" count="10"/>
+	<ingredient name="bucketEmpty" count="1"/>
+	<ingredient name="drinkCanEmpty" count="5"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+<recipe name="toolAndDieSet" count="1" craft_area="workbench">
+	<ingredient name="meleeToolWrench" count="1"/>
+	<ingredient name="meleeToolPickaxeIron" count="1"/>
+	<ingredient name="meleeToolClawHammer" count="1"/>
+	<ingredient name="meleeToolHuntingKnife" count="1"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+<recipe name="medicalAloeCream" count="1">
+	<ingredient name="foodMoldyBread" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="3"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="resourceYuccaFibers" count="5"/>
+	<ingredient name="resourceCloth" count="3"/>
+</recipe>
+
+<recipe name="foodMoldyBread" count="1">
+	<ingredient name="foodRawMeat" count="3"/>
+	<ingredient name="resourceYuccaFibers" count="5"/>
+	<ingredient name="resourceCloth" count="3"/>
+</recipe>
+
+<recipe name="resourceGlue" count="1" craft_area="campfire" craft_tool="toolCookingPot">
+	<ingredient name="resourceYuccaFibers" count="10"/>
+	<ingredient name="resourceClayLump" count="5"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
 </recipes>
 <!-- To do (maybe / later)
 <recipe name="resourceArrowHeadSteelAP" count="1" craft_area="forge" craft_tool="toolCalipers" material_based="true">

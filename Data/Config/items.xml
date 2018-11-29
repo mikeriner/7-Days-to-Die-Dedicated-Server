@@ -2017,7 +2017,7 @@ We _want_ players to specialise so we also have to make it feasible.
 		<property name="Class" value="Launcher"/>
 		<property name="Delay" value="0.8"/> <!-- obsolete if rounds per minute exists -->
 		<!-- <property name="Range" value="200"/> -->
-		<property name="Magazine_items" value="ammoRocketHE,ammoRocketFrag"/>
+		<property name="Magazine_items" value="ammoRocketHE,ammoRocketFrag,Tactical Nuke A,Tactical Nuke B"/>
 		<!-- <property name="Reload_time" value="2"/> -->
 		<property name="Sound_start" value="m136_fire"/>
 		<property name="Sound_repeat" value=""/>
@@ -3673,7 +3673,7 @@ We _want_ players to specialise so we also have to make it feasible.
 	</property>
 	<property name="ThrowableDecoy" value="true"/>
 	<property name="Group" value="Ammo/Weapons"/>
-	<property name="CreativeMode" value="Dev"/>
+	<!--<property name="CreativeMode" value="Dev"/>-->
 	<effect_group tiered="false">
 		<display_value name="ExRadius" value="1" />
 	</effect_group>
@@ -5318,7 +5318,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Group" value="Clothing"/>
 	<property name="ActionSkillGroup" value="Clothing/Armor"/>
 	<property name="CraftingSkillGroup" value="craftSkillScience"/>
-	<property name="CreativeMode" value="Dev"/>
+	<!--<property name="CreativeMode" value="Dev"/>-->
 	<effect_group tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="1"/>
 		<passive_effect name="ElementalDamageResist" operation="base_add" value="5" tags="head,radiation"/>
@@ -5489,7 +5489,7 @@ So no clothing dyes until that can be resolved. -->
 		<property name="Mesh" value="cigarette"/>
 		<property name="Overlay0" value="cigarette"/>
 	</property>
-	<property name="CreativeMode" value="Dev"/>
+	<!--<property name="CreativeMode" value="Dev"/>-->
 	<effect_group tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
 		<passive_effect name="Bartering" operation="base_add" value="0.1"/>
@@ -7019,7 +7019,7 @@ So no clothing dyes until that can be resolved. -->
 
 <item name="sunblocker"> <!-- not finished / used, yet -->
 	<property name="Extends" value="medicalAloeCream"/>
-	<property name="CreativeMode" value="Dev"/>
+	<!--<property name="CreativeMode" value="Dev"/>-->
 	<property name="CustomIcon" value="medicalAloeCream"/> <property name="CustomIconTint" value="afffaf"/>
 </item>
 
@@ -7030,7 +7030,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Meshfile" value="Items/Health/painkillersPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Morganic"/>
-	<property name="CreativeMode" value="Dev"/>
+	<!--<property name="CreativeMode" value="Dev"/>-->
 	<property name="CustomIcon" value="drugPainkillers"/> <property name="CustomIconTint" value="ff4040"/>
 	<property name="SellableToTrader" value="false"/>
 	<property class="Action0">
@@ -7063,7 +7063,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Meshfile" value="Items/Health/painkillersPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Morganic"/>
-	<property name="CreativeMode" value="Dev"/>
+	<!--<property name="CreativeMode" value="Dev"/>-->
 	<property name="CustomIcon" value="drugPainkillers"/> <property name="CustomIconTint" value="4040ff"/>
 	<property name="SellableToTrader" value="false"/>
 	<property class="Action0">
@@ -8525,7 +8525,7 @@ So no clothing dyes until that can be resolved. -->
 
 <item name="drinkJarYuccaCocktail"> <!-- yucca yuice/drink/thing -->
 	<property name="Extends" value="drinkJarRedTea"/>
-	<property name="CreativeMode" value="Dev"/> <!-- not done, yet -->
+	<!--<property name="CreativeMode" value="Dev"/>--> <!-- not done, yet -->
 </item>
 
 <item name="drinkYuccaJuiceSmoothie"> <!-- Master Chef Tier 3 foods -->
@@ -11320,7 +11320,7 @@ So no clothing dyes until that can be resolved. -->
 </item>
 
 <item name="resourceTrophy3"> <!-- tungsten trophy -->
-	<property name="CreativeMode" value="Dev"/>
+	<!--<property name="CreativeMode" value="Dev"/>-->
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
@@ -11670,7 +11670,7 @@ So no clothing dyes until that can be resolved. -->
 
 <!-- -->
 <item name="meleeToolPaintToolAdmin">
-	<property name="CreativeMode" value="Dev"/>
+	<!--<property name="CreativeMode" value="Dev"/>-->
 	<property name="HoldType" value="51"/>
 	<property name="Meshfile" value="Items/Tools/PaintbrushPrefab"/>
 	<property name="CustomIcon" value="meleeToolPaintTool"/>
@@ -11721,7 +11721,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="CustomIcon" value="meleeToolWrench"/>
 	<property name="CustomIconTint" value="ffa0a0"/>
 	<Property name="TintColor" value="255,160,160"/>
-	<property name="CreativeMode" value="Dev"/>
+	<!--<property name="CreativeMode" value="Dev"/>-->
 	<property class="Attributes">
 		<property name="EntityDamage" value="5000,10000"/>
 		<property name="BlockDamage" value="5000,10000"/>
@@ -11741,7 +11741,7 @@ So no clothing dyes until that can be resolved. -->
 </item>
 
 <item name="gunToolDiggerAdmin">
-	<property name="CreativeMode" value="Dev"/>
+	<!--<property name="CreativeMode" value="Dev"/>-->
 	<property name="DisplayType" value="adminRanged"/>
 	<property name="HoldType" value="6"/>
 	<property name="Meshfile" value="Items/Weapons/Ranged/MP5/MP5Prefab"/>
@@ -11796,7 +11796,7 @@ So no clothing dyes until that can be resolved. -->
 	</item>
 
 <item name="gunPistolAdmin">
-	<property name="CreativeMode" value="Dev"/>
+	<!--<property name="CreativeMode" value="Dev"/>-->
 	<property name="DisplayType" value="adminRanged"/>
 	<property name="HoldType" value="1"/>
 	<property name="Meshfile" value="Items/Weapons/Ranged/Pistol/PistolPrefab"/>
@@ -11851,7 +11851,7 @@ So no clothing dyes until that can be resolved. -->
 </item>
 
 <item name="meleeToolHammerOfGodAdmin">
-	<property name="CreativeMode" value="Dev"/>
+	<!--<property name="CreativeMode" value="Dev"/>-->
 	<property name="HoldType" value="32"/>
 	<property name="Meshfile" value="Items/Tools/hammerPrefab"/>
 	<property name="CustomIcon" value="meleeToolClawHammer"/> <property name="CustomIconTint" value="ffa0a0"/>
@@ -11910,7 +11910,7 @@ So no clothing dyes until that can be resolved. -->
 
 <item name="foolsCapAdmin">
 	<property name="Extends" value="medicalBandage"/>
-	<property name="CreativeMode" value="Dev"/>
+	<!--<property name="CreativeMode" value="Dev"/>-->
 	<property name="CustomIcon" value="skullCap"/> <property name="CustomIconTint" value="250,180,210"/>
 	<property name="Stacknumber" value="1"/>
 
@@ -11930,7 +11930,7 @@ So no clothing dyes until that can be resolved. -->
 
 <item name="rocketBootsAdmin">
 	<property name="Extends" value="gothBootsBlack" param1="DescriptionKey"/>
-	<property name="CreativeMode" value="Dev"/>
+	<!--<property name="CreativeMode" value="Dev"/>-->
 	<property name="CustomIcon" value="gothBootsBlack"/> <property name="CustomIconTint" value="250,180,210"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="Tags" value="lowerbody,feet,armor"/>
@@ -11962,7 +11962,7 @@ So no clothing dyes until that can be resolved. -->
 
 <item name="jetPackAdmin">
 	<property name="Extends" value="armorLeatherChest"/>
-	<property name="CreativeMode" value="Dev"/>
+	<!--<property name="CreativeMode" value="Dev"/>-->
 	<property name="CustomIcon" value="flamethrowerTrap"/>
 	<property name="Stacknumber" value="1"/>
 	<effect_group tiered="false">
@@ -11978,7 +11978,7 @@ So no clothing dyes until that can be resolved. -->
 
 <item name="pimpCoatAdmin">
 	<property name="Extends" value="leatherPoncho"/>
-	<property name="CreativeMode" value="Dev"/>
+	<!--<property name="CreativeMode" value="Dev"/>-->
 	<property name="CustomIcon" value="leatherPoncho"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="CustomIconTint" value="255,0,255"/>
@@ -11998,7 +11998,7 @@ So no clothing dyes until that can be resolved. -->
 
 <item name="ringOfFireAdmin">
 	<property name="Extends" value="armorClothGloves" param1="DescriptionKey"/>
-	<property name="CreativeMode" value="Dev"/>
+	<!--<property name="CreativeMode" value="Dev"/>-->
 	<property name="CustomIcon" value="modGunBowPolymerString"/> <property name="CustomIconTint" value="250,50,20"/>
 	<property name="Stacknumber" value="1"/>
 	<effect_group tiered="false">
@@ -12381,6 +12381,62 @@ So no clothing dyes until that can be resolved. -->
 	<property name="DescriptionKey" value="Slightly better than the stone shovel for digging. Not as good as a real iron shovel."/>
 </item>
 <!-- End Scrap Iron Tools -->
+
+<item name="Tactical Nuke A">
+	<property name="Extends" value="ammoRocketHE"/>
+	<property name="CustomIcon" value="ammoRocketHE"/><property name="CustomIconTint" value="255,12,12"/>
+	<property class="Action1">
+		<property name="Explosion.RadiusBlocks" value="3"/> <!-- damage radius for blocks -->
+		<property name="Explosion.BlockDamage" value="20"/> <!-- damage for blocks in the center of the explosion -->
+		<property name="Explosion.RadiusEntities" value="6"/> <!-- damage radius for entities -->
+		<property name="Explosion.EntityDamage" value="450"/> <!-- damage for entities in the center of the explosion. Zombies take 2x this damage. -->
+
+		<property name="Explosion.DamageBonus.stone" value="0.1"/>
+		<property name="Explosion.DamageBonus.metal" value="0.05"/>
+		<property name="Explosion.DamageBonus.earth" value="0"/>
+		<property name="Explosion.DamageBonus.wood" value="0.5"/>
+		<property name="Explosion.DamageBonus.water" value="0"/>
+
+	</property>
+	<effect_group name="Base Effects" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="1350"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="250"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="50"/>
+		<display_value name="ExRadius" value="16" />
+<!--
+		<triggered_effect name="onProjectileImpact" action="AddBuff" target="positionAOE" range="6" buff="buffBurningElement"/>
+-->
+	</effect_group>
+</item>
+
+
+<item name="Tactical Nuke B">
+	<property name="Extends" value="ammoRocketHE"/>
+	<property name="CustomIcon" value="ammoRocketHE"/><property name="CustomIconTint" value="12,255,12"/>
+	<property class="Action1">
+		<property name="Explosion.RadiusBlocks" value="10"/> <!-- damage radius for blocks -->
+		<property name="Explosion.BlockDamage" value="900"/> <!-- damage for blocks in the center of the explosion -->
+		<property name="Explosion.RadiusEntities" value="6"/> <!-- damage radius for entities -->
+		<property name="Explosion.EntityDamage" value="320"/> <!-- damage for entities in the center of the explosion. Zombies take 2x this damage. -->
+
+    <!--
+		<property name="Explosion.DamageBonus.stone" value="1.00"/>
+		<property name="Explosion.DamageBonus.metal" value="1.10"/>
+		<property name="Explosion.DamageBonus.earth" value="0.15"/>
+		<property name="Explosion.DamageBonus.wood" value="1.25"/>
+		<property name="Explosion.DamageBonus.water" value="0"/>
+    -->
+	</property>
+	<effect_group name="Base Effects" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="350"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="50"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="50"/>
+		<display_value name="ExRadius" value="6" />
+<!--
+		<triggered_effect name="onProjectileImpact" action="AddBuff" target="positionAOE" range="6" buff="buffBurningElement"/>
+-->
+	</effect_group>
+</item>
 
 </items> <!-- Item limit: There can be 32k items in the game. IDs are generated internally on loading the game/items. -->
 

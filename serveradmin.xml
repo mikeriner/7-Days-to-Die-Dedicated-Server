@@ -35,19 +35,108 @@
         <!-- <permission cmd="dm" permission_level="0" /> -->
         <!-- <permission cmd="kick" permission_level="1" /> -->
         <!-- <permission cmd="say" permission_level="1000" /> -->
+        <permission cmd="admin" permission_level="1000" />
+        <permission cmd="aiddebug" permission_level="1000" />
+        <permission cmd="audio" permission_level="1000" />
+        <permission cmd="ban" permission_level="1000" />
+        <permission cmd="bents" permission_level="1000" />
+        <permission cmd="BiomeParticles" permission_level="1000" />
+        <permission cmd="buff" permission_level="1000" />
+        <permission cmd="buffplayer" permission_level="1000" />
         <permission cmd="chunkcache" permission_level="1000" />
+        <permission cmd="chunkobserver" permission_level="1000" />
+        <permission cmd="commandpermission" permission_level="1000" />
+        <permission cmd="creativemenu" permission_level="1000" />
+        <permission cmd="debuff" permission_level="1000" />
+        <permission cmd="debuffplayer" permission_level="1000" />
+        <permission cmd="debugmenu" permission_level="1000" />
+        <permission cmd="debugshot" permission_level="1000" />
         <permission cmd="debugweather" permission_level="1000" />
+        <permission cmd="decomgr" permission_level="1000" />
+        <permission cmd="dms" permission_level="1000" />
+        <permission cmd="dof" permission_level="1000" />
+        <permission cmd="enablescope" permission_level="1000" />
+        <permission cmd="exhausted" permission_level="1000" />
+        <permission cmd="exportcurrentconfigs" permission_level="1000" />
+        <permission cmd="exportitemicons" permission_level="1000" />
+        <permission cmd="exportprefab" permission_level="1000" />
+        <permission cmd="floatingorigin" permission_level="1000" />
+        <permission cmd="gamestage" permission_level="1000" />
         <permission cmd="getgamepref" permission_level="1000" />
         <permission cmd="getgamestat" permission_level="1000" />
-        <permission cmd="gettime" permission_level="1000" />
-        <permission cmd="help" permission_level="1000" />
-        <permission cmd="listplayerids" permission_level="1000" />
-        <permission cmd="listthreads" permission_level="1000" />
-        <permission cmd="memcl" permission_level="1000" />
-        <permission cmd="settempunit" permission_level="1000" />
-        <permission cmd="debugshot" permission_level="1000" />
         <permission cmd="getoptions" permission_level="1000" />
+        <permission cmd="gettime" permission_level="1000" />
+        <permission cmd="givequest" permission_level="1000" />
+        <permission cmd="giveself" permission_level="1000" />
         <permission cmd="giveselfxp" permission_level="1000" />
+        <permission cmd="help" permission_level="1000" />
+        <permission cmd="kick" permission_level="1000" />
+        <permission cmd="kickall" permission_level="1000" />
+        <permission cmd="kill" permission_level="1000" />
+        <permission cmd="killall" permission_level="1000" />
+        <permission cmd="lgo" permission_level="1000" />
+        <permission cmd="lights" permission_level="1000" />
+        <permission cmd="listents" permission_level="1000" />
+        <permission cmd="listplayerids" permission_level="1000" />
+        <permission cmd="listplayers" permission_level="1000" />
+        <permission cmd="listthreads" permission_level="1000" />
+        <permission cmd="loggamestate" permission_level="1000" />
+        <permission cmd="loglevel" permission_level="1000" />
+        <permission cmd="mem" permission_level="1000" />
+        <permission cmd="memcl" permission_level="1000" />
+        <permission cmd="pois" permission_level="1000" />
+        <permission cmd="pplist" permission_level="1000" />
+        <permission cmd="profilenetwork" permission_level="1000" />
+        <permission cmd="profiling" permission_level="1000" />
+        <permission cmd="removequest" permission_level="1000" />
+        <permission cmd="repairchunkdensity" permission_level="1000" />
+        <permission cmd="saveworld" permission_level="1000" />
+        <permission cmd="say" permission_level="1000" />
+        <permission cmd="ScreenEffect" permission_level="1000" />
+        <permission cmd="setgamepref" permission_level="1000" />
+        <permission cmd="setgamestat" permission_level="1000" />
+        <permission cmd="settargetfps" permission_level="1000" />
+        <permission cmd="settempunit" permission_level="1000" />
+        <permission cmd="settime" permission_level="1000" />
+        <permission cmd="show" permission_level="1000" />
+        <permission cmd="showalbedo" permission_level="1000" />
+        <permission cmd="showchunkdata" permission_level="1000" />
+        <permission cmd="showClouds" permission_level="1000" />
+        <permission cmd="showhits" permission_level="1000" />
+        <permission cmd="shownexthordetime" permission_level="1000" />
+        <permission cmd="shownormals" permission_level="1000" />
+        <permission cmd="showspecular" permission_level="1000" />
+        <permission cmd="shutdown" permission_level="1000" />
+        <permission cmd="smoothworldall" permission_level="1000" />
+        <permission cmd="sounddebug" permission_level="1000" />
+        <permission cmd="spawnairdrop" permission_level="1000" />
+        <permission cmd="spawnentity" permission_level="1000" />
+        <permission cmd="spawnentityat" permission_level="1000" />
+        <permission cmd="spawnscouts" permission_level="1000" />
+        <permission cmd="SpawnScreen" permission_level="1000" />
+        <permission cmd="spawnsupplycrate" permission_level="1000" />
+        <permission cmd="spawnwanderinghorde" permission_level="1000" />
+        <permission cmd="spectrum" permission_level="1000" />
+        <permission cmd="stab" permission_level="1000" />
+        <permission cmd="starve" permission_level="1000" />
+        <permission cmd="switchview" permission_level="1000" />
+        <permission cmd="SystemInfo" permission_level="1000" />
+        <permission cmd="teleport" permission_level="1000" />
+        <permission cmd="teleportplayer" permission_level="1000" />
+        <permission cmd="thirsty" permission_level="1000" />
+        <permission cmd="traderarea" permission_level="1000" />
+        <permission cmd="trees" permission_level="1000" />
+        <permission cmd="updatelighton" permission_level="1000" />
+        <permission cmd="version" permission_level="1000" />
+        <permission cmd="visitmap" permission_level="1000" />
+        <permission cmd="water" permission_level="1000" />
+        <permission cmd="weather" permission_level="1000" />
+        <permission cmd="weathersurvival" permission_level="1000" />
+        <permission cmd="whitelist" permission_level="1000" />
+        <permission cmd="xui" permission_level="1000" />
+        <permission cmd="xuireload" permission_level="1000" />
+        <permission cmd="zip" permission_level="1000" />
+
     </permissions>
 
     <!-- ONLY PUT ITEMS IN WHITELIST IF YOU WANT WHITELIST ONLY ENABLED!!! -->
