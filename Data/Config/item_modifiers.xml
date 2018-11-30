@@ -1395,7 +1395,29 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 
 	<item_modifier name="questCassadoreSupplies"><property name="CreativeMode" value="None"/></item_modifier>
 
+  
+	<!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+	<!-- Custom items -->
+	<item_modifier name="Boots of Escaping" installable_tags="feet" modifier_tags="misc" type="attachment" rarity="0.5">
+		<property name="Stacknumber" value="1"/>
+		<property name="CustomIcon" value="wornBoots"/>
 
+		<effect_group tiered="false">
+			<passive_effect name="WalkSpeed" operation="perc_add" value="1.35"/>
+			<passive_effect name="RunSpeed" operation="perc_add" valu.e="1.35"/>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="Iron lungs" installable_tags="upperbody,chest,clothing" modifier_tags="misc" type="attachment" rarity="0.5">
+		<property name="Stacknumber" value="1"/>
+		<property name="CustomIcon" value="armorMilitaryVest"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="StaminaGain" operation="perc_add" value="1.35"/>
+		</effect_group>
+	</item_modifier>
+
+  
 </item_modifiers>
 
 
